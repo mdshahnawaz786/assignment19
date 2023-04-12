@@ -1,0 +1,41 @@
+
+.cartDiv{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+.cart{
+    
+    height: 350px;
+    width: 250px;
+    box-shadow: 0 0 10px red;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart img{
+    height: 70%;
+    width: 100%;
+}
+
+.cart button{
+    cursor: pointer;
+    border: none;
+    font-size: smaller;
+    height: 7%;
+    width: 70%;
+    border-radius: 20px;
+    background-color: rgb(110, 55, 55);
+    color: lightblue;
+    border: 1px solid red;
+    font-weight: bolder;
+}
